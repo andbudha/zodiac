@@ -3,8 +3,27 @@
 
 .main_footer_box {
   background-color: $nav_footer_color;
+  padding: 20px 50px;
   color: $font_secondary_color;
   height: 180px;
   width: 100%;
-  @include flexBox(nowrap, row, center, center);
+  @include flexBox(nowrap, row, space-between, center);
+  .links_box {
+    height: 80px;
+    width: auto;
+    @include flexBox(nowrap, column, space-around, center);
+    .link {
+      text-decoration: none;
+      color: $font_secondary_color;
+      font-size: 1.5rem;
+    }
+  }
+  .info_box {
+    color: $font_secondary_color;
+    opacity: 0.8;
+    font-size: 1rem;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 20px;
+  }
 }

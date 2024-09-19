@@ -1,0 +1,49 @@
+.container {
+//   border: solid red;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  padding-top: 40px;
+  .flex_box{
+    width: 40%;
+    margin: auto;
+    padding: 8px;
+    // border: solid;
+    .image_box{
+
+        .image{
+            border-radius: 15px;;
+            width: 100%;
+            height: 300px;
+        }   
+    }
+
+    .text_box{
+
+        padding: 10px 0px;
+        // border: solid rgb(187, 27, 27);
+        display: flex;
+    flex-direction: column;
+    align-items: center;
+    .box_layout{
+        // border: solid rgb(65, 24, 214);
+        padding: 5px;
+        
+        .text{
+            padding: 0px 5px;
+            font-size: 1.5rem;
+            // border: solid rgb(46, 240, 78);
+            
+        } 
+    }
+
+    }
+
+    .description_box{
+        font-size: 1.2rem;
+        padding: 10px 5px;
+        // border: solid gray;
+    }
+
+  }
+}

@@ -7,13 +7,14 @@ import {
 import styles from './App.module.scss';
 import { Layout } from './components/Layout/Layout';
 import { Home } from './pages/Home/Home';
+import Signs from './components/Signs/Signs';
 
 export const App = () => {
   const router = createBrowserRouter(
     createRoutesFromElements(
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
-        <Route path="signs" element={'signs component'} />
+        <Route path="signs" element={<Signs />} />
       </Route>
     )
   );

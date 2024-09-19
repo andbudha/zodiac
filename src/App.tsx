@@ -8,6 +8,7 @@ import styles from './App.module.scss';
 import { Layout } from './components/Layout/Layout';
 import { Home } from './pages/Home/Home';
 import Signs from './components/Signs/Signs';
+import Details from './components/Details/Details';
 
 export const App = () => {
   const router = createBrowserRouter(
@@ -15,6 +16,7 @@ export const App = () => {
       <Route path="/" element={<Layout />}>
         <Route index element={<Home />} />
         <Route path="signs" element={<Signs />} />
+        <Route path="details" element={<Details />} />
       </Route>
     )
   );

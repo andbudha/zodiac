@@ -1,0 +1,10 @@
+@import '../../assets/sass/mixins.scss';
+@import '../../assets/sass/variables.scss';
+
+.main_footer_box {
+  background-color: $nav_footer_color;
+  color: $font_secondary_color;
+  height: 180px;
+  width: 100%;
+  @include flexBox(nowrap, row, center, center);
+}

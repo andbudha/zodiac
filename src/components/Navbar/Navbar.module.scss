@@ -1,0 +1,34 @@
+@import '../../assets/sass/mixins.scss';
+@import '../../assets/sass/variables.scss';
+
+.main_navbar_box {
+  background-color: $nav_footer_color;
+  color: $font_secondary_color;
+  padding: 20px 50px;
+  height: 140px;
+  width: 100%;
+  @include flexBox(nowrap, row, space-between, center);
+  .logo_box {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    color: $font_secondary_color;
+    background-color: $font_secondary_color;
+    cursor: pointer;
+    @include flexBox(nowrap, row, center, center);
+    .logo {
+      height: 70px;
+      width: 70px;
+    }
+  }
+  .links_box {
+    width: 150px;
+    height: 50px;
+    @include flexBox(nowrap, row, space-around, center);
+    .link {
+      text-decoration: none;
+      color: $font_secondary_color;
+      font-size: 1.5rem;
+    }
+  }
+}

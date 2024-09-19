@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const Signs = () => {
   return (
-    <div>
+    <div className={styles.container}>
       <h1>Sign Pages</h1>
 
       <div className={styles.flip_card}>

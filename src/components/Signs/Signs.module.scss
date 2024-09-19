@@ -1,2 +1,19 @@
 @import "../../assets/sass/mixins.scss";
 @import "../../assets/sass/variables.scss";
+
+.container {
+  // border: solid;
+  width: 100%;
+  padding: 5px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  .flip_box {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    gap: 20px;
+  }
+}

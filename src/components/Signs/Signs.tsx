@@ -19,7 +19,10 @@ const Signs = () => {
                   </div>
                   <div className={styles.flip_card_back}>
                     <h1>
-                      <NavLink to={`${data.id}`}> {data.name} </NavLink>
+                      <NavLink className={styles.btn} to={`${data.id}`}>
+                        {" "}
+                        {data.name}{" "}
+                      </NavLink>
                     </h1>
                   </div>
                 </div>

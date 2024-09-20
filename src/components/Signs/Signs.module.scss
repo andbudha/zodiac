@@ -56,14 +56,19 @@
 
         .flip_card_back {
           font-size: 1.5rem;
-          background-color: #2980b9;
-          color: white;
+          background-color: #0b2f9f;
           transform: rotateY(180deg);
           display: flex;
           align-items: center;
           justify-content: center;
           color: $font_primary_color;
           border-radius: 10px !important;
+          .btn {
+            color: white;
+            &:hover {
+              color: rgb(192, 192, 236);
+            }
+          }
         }
       }
     }

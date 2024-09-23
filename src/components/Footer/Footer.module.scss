@@ -16,11 +16,15 @@
       text-decoration: none;
       color: $font_secondary_color;
       font-size: 1.5rem;
+      opacity: 0.6;
+    }
+    .active_link {
+      opacity: 1;
     }
   }
   .info_box {
     color: $font_secondary_color;
-    opacity: 0.8;
+    opacity: 0.6;
     font-size: 1rem;
   }
   @media screen and (max-width: 480px) {

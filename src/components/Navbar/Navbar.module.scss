@@ -25,6 +25,21 @@
     width: 150px;
     height: 50px;
     @include flexBox(nowrap, row, space-around, center);
+    .link_box {
+      height: 32px;
+      @include flexBox(nowrap, row, center, center);
+      &:hover {
+        box-shadow: $font_secondary_color 0px 3px 0px 0px;
+        transition: 0.5s;
+      }
+      &:not(:hover) {
+        transition: 0.5s;
+      }
+    }
+    .active_link_box {
+      box-shadow: $font_secondary_color 0px 3px 0px 0px;
+    }
+
     .link {
       text-decoration: none;
       color: $font_secondary_color;

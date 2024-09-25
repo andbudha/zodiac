@@ -1,10 +1,13 @@
-@import "../../assets/sass/mixins.scss";
-@import "../../assets/sass/variables.scss";
+@import '../../assets/sass/mixins.scss';
+@import '../../assets/sass/variables.scss';
 
 .main_layout_box {
-  // border: 1px solid;
+  border: 1px solid $font_primary_color;
   height: 100vh;
   max-width: 1400px;
   margin: 0 auto;
   @include flexBox(nowrap, column, space-between, center);
+  @media screen and (max-width: 480px) {
+    border: none;
+  }
 }

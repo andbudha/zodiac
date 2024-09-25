@@ -4,6 +4,7 @@ import { NavLink, useLocation } from 'react-router-dom';
 
 export const Navbar = () => {
   const { pathname } = useLocation();
+
   return (
     <div className={styles.main_navbar_box}>
       <NavLink to={'/'} className={styles.logo_box}>

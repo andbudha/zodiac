@@ -17,7 +17,7 @@ export const Navbar = () => {
           }`}
         >
           <NavLink to={'/'} className={styles.link}>
-            home
+            Home
           </NavLink>
         </div>
         <div
@@ -26,7 +26,7 @@ export const Navbar = () => {
           }`}
         >
           <NavLink to={'/signs'} className={styles.link}>
-            signs
+            Signs
           </NavLink>
         </div>
       </div>

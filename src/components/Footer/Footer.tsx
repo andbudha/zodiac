@@ -10,7 +10,7 @@ export const Footer = () => {
           to={'/'}
           className={`${styles.link} ${pathname === '/' && styles.active_link}`}
         >
-          home
+          Home
         </NavLink>
         <NavLink
           to={'/signs'}
@@ -18,7 +18,7 @@ export const Footer = () => {
             pathname === '/signs' && styles.active_link
           }`}
         >
-          signs
+          Signs
         </NavLink>
       </div>
       <div className={styles.info_box}>

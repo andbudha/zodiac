@@ -23,6 +23,7 @@
   max-height: 300px;
   max-width: 300px;
   margin: 0 10px;
+  box-shadow: #161d6f 0px 15px 25px;
 }
 
 .swiper-slide img {
